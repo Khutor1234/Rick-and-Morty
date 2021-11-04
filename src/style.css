@@ -1,0 +1,13 @@
+#root{
+    flex-grow: 1;
+    background-color: rgba(0,0,0,0.9);
+    min-height: calc(100vh - 64px);
+    margin: 64px 0 0 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+      

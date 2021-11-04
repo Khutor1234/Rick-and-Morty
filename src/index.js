@@ -1,0 +1,28 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import App from './components/app';
+import ErrorBoundry from './components/error-boundry';
+import { ServiceProvider } from './components/service-context';
+import Service from './services/service';
+
+import store from './store';
+
+import './style.css';
+
+const service = new Service();
+
+ReactDOM.render(
+  <Provider store={store}>
+    <ErrorBoundry>
+      <ServiceProvider value={service}>
+        <Router>
+          <App />
+        </Router>
+      </ServiceProvider>
+    </ErrorBoundry>
+  </Provider>,
+  document.getElementById('root')
+);
