@@ -1,4 +1,3 @@
-import React from 'react';
 import ItemList from '../item-list';
 import { withService, withChildFunction, compose } from '../hoc-helpers';
 import RenderPerson from './render-person';

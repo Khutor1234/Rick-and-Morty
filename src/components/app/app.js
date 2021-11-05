@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../header';
+
 import {PeoplePage, EpisodesPage, LocationsPage, WatchListPage} from '../pages';
 import Typography from '@material-ui/core/Typography';
 import useStyles from './style';

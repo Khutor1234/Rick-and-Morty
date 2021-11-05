@@ -9,7 +9,7 @@ const WatchList = () => {
 
     const items = episodeList.map((item) => {
       return (
-        <ListItem >
+        <ListItem key = {item.id}>
             <Checkbox
               checked={item.checked}
               onClick={()=>handleEpisodeChecking(item)}

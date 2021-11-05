@@ -19,8 +19,6 @@ const updatePeople = (state , action) => {
         };
     }
 
-    console.log(state, 'state')
-
     switch(type){
         case 'LOADED':
             return {

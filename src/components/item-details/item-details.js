@@ -40,7 +40,7 @@ const ItemDetails = (props) => {
           <Grid container>
             <Grid item>
               {
-                image ? <img src={image} alt="item"/> : <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTseQYHue7Zr7V4MtekJW-wnrWBSt24T5ROow&usqp=CAU'/>
+                image ? <img src={image} alt="Item"/> : <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTseQYHue7Zr7V4MtekJW-wnrWBSt24T5ROow&usqp=CAU' alt="Item"/>
               }
             </Grid>
             <Grid item>
